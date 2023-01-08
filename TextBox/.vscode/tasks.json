@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Deno: Run Main",
+            "type": "deno",
+            "command": "run",
+            "args": [
+                "-A",
+                "--unstable",
+                "main.ts"
+            ],
+            "problemMatcher": [
+                "$deno"
+            ]
+        },
+        {
+            "label": "Deno: Run Main RELOAD",
+            "type": "deno",
+            "command": "run",
+            "args": [
+                "-A",
+                "--reload",
+                "--unstable",
+                "main.ts"
+            ],
+            "problemMatcher": [
+                "$deno"
+            ]
+        },
+    ]
+}
