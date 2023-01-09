@@ -1,9 +1,0 @@
-* {
-    font-family:'Consolas','Courier New', Courier, monospace;
-    font-weight: bolder;
-    margin: 5px;
-    padding: 10px; 
-}
-a {
-    color:darkblue;
-}
